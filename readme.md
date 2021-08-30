@@ -1,8 +1,4 @@
-# SIGBBA
-
-Este projeto se trata de um sistema gerenciamento que sera utilizado pelo banco de alimentos de Ubá-MG.
-
-A estrutura do projeto foi construída em um monorepo.
+# Monorepo - Node.js + NextJS + Eslint + Prettier
 
 ## Configuração inicial do projeto
 
@@ -31,4 +27,4 @@ Migrations são um conjunto de arquivos que se comportam como um script que irá
 
 `docker-compose run server yarn typeorm migration:run`
 
-A parte do comando `docker-compose run server` é responsável por informar que o comando que virá a seguir deve ser rodado dentro do serviço <b>server</b> que foi levantado pelo comando `docker-compose up -d`.
+A parte do comando `docker-compose run server` é responsável por informar que o comando que virá a seguir deve ser rodado dentro do serviço <b>server</b>.
